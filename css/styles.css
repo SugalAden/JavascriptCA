@@ -1,0 +1,116 @@
+body {
+  background-color: #d8edff;
+  background-image: url(https://images.pexels.com/photos/7130498/pexels-photo-7130498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center top;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.characterTitle {
+  margin-left: 1rem;
+  text-align: center;
+  font-size: 2.6rem;
+  margin-top: 0rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 117%;
+  font-size: 1.5rem;
+  border: 4px solid #b75c5c;
+  border-radius: 12px;
+  margin-top: 0.6rem;
+}
+
+.moreDetails-image {
+  height: 246px;
+  background-size: cover;
+  width: 245px;
+  border-radius: 37px;
+}
+
+input {
+  display: flex;
+  height: 2.4vw;
+  border-radius: 18px;
+  width: 13.4vw;
+}
+
+.linkButtons {
+  margin-top: -0.6%;
+}
+
+.error {
+  display: none;
+  color: red;
+}
+
+.contact-form {
+  margin-top: -1%;
+}
+
+.button {
+  height: 2.4vw;
+  border-radius: 18px;
+  width: 13.8vw;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.contactHeader {
+  margin-top: 0rem;
+}
+
+footer {
+  background-color: white;
+  padding: 1.2em;
+  margin-left: -1rem;
+  margin-right: -0.5em;
+  text-align: center;
+  margin-right: -0.5em;
+  margin-bottom: -3rem;
+  margin-top: auto;
+}
+.detailFooter {
+  background-color: white;
+  padding: 1.2em;
+  text-align: center;
+  padding-bottom: 2%;
+  margin-top: auto;
+}
+.contactFooter {
+  background-color: white;
+  padding: 1.2em;
+  text-align: center;
+  margin-top: 21.9em;
+  padding-bottom: 2%;
+  margin-top: auto;
+}
